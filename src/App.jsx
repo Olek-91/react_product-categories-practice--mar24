@@ -20,6 +20,8 @@ const products = productsFromServer.map(product => {
   };
 });
 
+// comment for push to update file
+
 export const App = () => {
   const [visibleProducts, setVisibleProducts] = useState(products);
   const [currentFilter, setCurrentFilter] = useState('All');
